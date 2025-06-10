@@ -1,0 +1,65 @@
+/* Header styling */
+.home-header {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Input group container */
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  flex: 1;
+  min-width: 120px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f7f9fb;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Add button */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #08a52f;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #08802e;
+}
+
+/* Active timers section */
+.active-timers {
+  margin-top: 2rem;
+}
+
+.active-timers h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #2c3e50;
+}
+
+.alert {
+  margin-top: 1rem;
+  padding: 0.5rem 0.8rem;
+  background: #e0f7e9;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+  color: #27ae60;
+}

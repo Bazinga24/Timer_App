@@ -1,0 +1,21 @@
+.history-container {
+  margin-top: 1rem;
+}
+
+.completed-timer {
+  background: #c1fab2;
+  border: 1px solid #abe4b1;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.completed-timer strong {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.completed-timer div {
+  font-size: 0.9rem;
+  color: #555;
+}
