@@ -1,12 +1,41 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Timer App 
 
-Currently, two official plugins are available:
+A simple and intuitive timer app built with ReactJS. Create timers, track their progress, and view your history of completed timers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Add new timers with a name, duration, and category  
+ Start, pause, and reset active timers  
+ Visual progress bars for each active timer  
+ Completed timers move to the History section  
+ All data is persisted in localStorage (refresh or navigate without losing data)  
+ Clear the history of completed timers  
+ Fully responsive and built with pure CSS3 styling (no external CSS libraries)
+
+---
+
+##  Installation
+
+1 Clone the repository:
+
+```bash
+git clone https://github.com/Bazinga24/Timer_App.git
+cd Timer_App
+```
+
+2 Install dependencies:
+```bash
+npm install
+```
+3 Usage
+```bash
+npm run dev
+```
+
+
+
+
